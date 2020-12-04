@@ -1,0 +1,206 @@
+/*第一部分*/
+header{
+    width:100%;
+    height:35rem;
+    background:#B2C5CC;
+    color:#757575;    
+}
+.header-container{
+    width:100%;
+    position: relative;
+}
+/*ipad 样式*/
+.header-nav{
+    display:flex;
+    height:4rem;
+    font-size:.8rem;
+    align-items: center;   
+    justify-content: center;
+}
+.header-nav-item+.header-nav-item{
+    margin-left:3.3rem;
+}
+.header-nav-link{
+    color:#757575;  
+}
+.link-active{
+    color:#afafaf;
+}
+/*iphone 样式*/
+.header-title-container{
+    display:flex;
+    width:100%;
+    height:4rem;
+    font-size:1rem;   
+    color:white;
+    background:#7EA6B1 ;
+    align-items: center;   
+    justify-content: center;
+}
+.header-title{
+    padding-left:30px;/*平衡按钮（.btn-toggle）的左右padding 15+15=30，使其居中*/
+    font-weight:normal;
+    text-align: center;
+}
+/*按钮样式*/
+.btn-toggle{
+    width:1.2rem;
+    height:1.2rem;
+    margin-top:8px; /*调整位置与标题位置持平*/
+    background:#7EA6B1 ;
+    border:1px solid white;
+    outline:none;
+}
+/*下拉导航样式*/
+.nav-container {
+    overflow: hidden;
+    position: absolute;
+    width:100%;
+    top:4rem;
+    left:0;
+    height:0;
+    transition: height 0.5s;
+}
+.nav-link{
+    display:block;
+    width:100%;
+    padding:.25rem 0;
+    text-align: center;
+    color:white;
+    background:#7EA6B1 ;
+    border-top:1px solid white;
+}
+.nav-container-extended {
+    height: 10rem;
+}
+/*header正文样式*/
+.hender-content{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hender-content-img{
+    width:6.5rem;
+    height:6.35rem;
+    margin-top:2.5rem;
+    margin-bottom:2rem;
+}
+.hender-content-title{
+    font-size:.8rem;
+    color:white;
+}
+.hender-content-btn{
+    width:8rem;
+    height:2.1rem;
+    margin-top:4rem;
+    background:#fff;
+    border:none;
+    outline:none;
+}
+/*第二部分*/
+.main-nav-container{
+    width:100%;
+    height:4rem;
+    border-bottom: 1px solid #bababa;
+}
+.main-nav-item{
+    display:flex;
+    height:4rem;
+    justify-content: center;
+    align-items: center;
+}
+.main-nav-link{
+    color:#bababa;
+}
+.main-nav-link-active{
+    color:#545454;
+}
+/*第三部分*/
+.content{
+    display:flex;
+    width:100%;
+    height:24rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.content-title{
+    font-size:1.2rem;
+    color:#545454;
+    font-weight:normal;
+    text-align:center;
+    margin-bottom:2rem;
+}
+.content-text{
+    font-size:0.8rem;
+    color:#bababa;
+    line-height:1.2rem;
+    margin:0 12rem;
+    word-wrap:break-word;
+    word-break:break-all;
+}
+/*第四部分*/
+.website-container{
+    width:100%;
+    color:#bababa;
+    background:#f4f4f4;
+    padding-top:1.5rem;
+    padding-bottom:1.5rem;
+}
+.website-container .row{
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+@media (min-width: 768px) {
+    .website-container .row{
+        flex-wrap:nowrap;
+        justify-content:space-between;
+        align-items: center;
+    }
+}
+.website{
+    height:1.6rem;
+    line-height:1.6rem;
+    font-size:0.8rem;
+}
+.website a{
+    font-size:0.8rem;
+}
+/*第五部分*/
+.course-container{
+    width:100%;
+    padding:2.5rem;
+    background:url("../img/bg.jpg");
+    background-size: cover;
+}
+.course-container .container{
+    width:100%;
+}
+.course-title{
+    padding-left:0.6rem;
+}
+.course-scan{
+    width:100%;
+    justify-content:space-around;
+    align-content:space-around;
+}
+.course-scan>div{
+    padding:0.6rem 0.6rem;
+}
+.course-item, .course-img{
+    display:inline-block;
+    width:100%;
+    height:12rem;   
+}
+/*第六部分*/
+.footer{
+    display:flex;
+    width:100%;
+    height:3rem;
+    background:#f4f4f4;
+    justify-content: center;
+    align-items: center;
+}

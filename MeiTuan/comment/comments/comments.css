@@ -1,0 +1,58 @@
+.comments {
+  padding: 0.3rem;
+  background-color: #fff;
+  font-size: .3rem;
+  line-height: .45rem;
+  color: #333;
+}
+
+.comment-item {
+  padding: 0.4rem 0;
+  border-bottom: 1px solid #aaa;
+}
+
+.user-info {
+  position: relative;
+  padding-left: 1.5rem;
+  height: 1.2rem;
+  font-size: .36rem;
+  color: #888;
+  margin-bottom: 0.3rem;
+}
+
+.user-profile {
+  position: absolute;
+  left: 0;
+}
+
+.user-img {
+  width: 1.2rem;
+  height: 1.2rem;
+  border: 1px solid #ccc;
+  border-radius: 0.2rem;
+}
+
+.comment-time {
+  position: absolute;
+  right: 0;
+  font-size: .35rem;
+}
+
+.user-name {
+  line-height: .6rem;
+  color: #333;
+}
+
+.user-score {
+  line-height: .6rem;
+}
+
+.score-star {
+  font-size: .4rem;
+  color: #ffd161;
+  margin-right: 0.3rem;
+}
+
+.comment-img {
+  width: 9.4rem;
+}

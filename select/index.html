@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+  <title>Document</title>
+  <link href="css/index.css" rel="stylesheet" type="text/css"/>
+</head>
+<body id="body">
+	<div id="wrap">
+      <div class="container" id="container">
+        <div class="title">自定义select</div>
+        <div class="search-wrap" id="search-wrap">
+          <input type="text" autocomplete="off" placeholder="未选择" readonly="readonly" class="select-input" id="select-input"/>
+          <input type="button" class="select-btn" id="select-btn"/>
+        </div>
+        <div class="search-layer" id="search-layer">
+          <input type="search" autocomplete="off" placeholder="搜索" class="search-input" id="search-input"/>
+          <!--
+          <h3 class="search-type">1</h3>
+          <p class="search-item selected">2</p>
+          -->
+        </div>
+      </div>
+      <div>
+        <p id="out"></p>
+      </div>
+  
+    <div style="text-align: center;margin-top: 60px;">
+      <div class="title">原生select</div>
+      <select>
+        <option value="1" type="构建工具">Babel</option>
+        <option value="2" type="构建工具">Webpack</option>
+        <option value="3" type="构建工具">Rollup</option>
+        <option value="4" type="前端框架">Vue</option>
+        <option value="5" type="前端框架">Angular</option>
+        <option value="6" type="前端框架">React</option>
+        <option value="7" type="前端框架">Nerv</option>
+      </select>
+      <script src="js/index.js" type="text/javascript"></script>
+    </div>
+  </div>
+</body>
+</html>

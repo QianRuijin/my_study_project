@@ -1,0 +1,48 @@
+.review {
+  background: #eee;
+}
+
+.general-comment{
+  margin-bottom: 0.2rem;
+}
+
+.general-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem 0.4rem;
+  background-color: #fff;
+}
+
+.general-wrap dl {
+  margin: 0 0.4rem;
+}
+
+.general-container {
+  flex-grow: 1;
+  position: relative;
+  padding-left: 2rem;
+}
+
+.general-score{
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: orange;
+}
+
+.general-star{
+  font-size: .46rem;
+  color: #ffd161;
+}
+
+.single-item,
+.general-item {
+  margin-bottom: 0.15rem;
+  font-size: .32rem;
+  color: #999;
+}
+
+.single-score {
+  font-size: .64rem;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=0">
+  <title>首页</title>
+  <link rel="stylesheet" type="text/css" href="../common/base/reset.css" />
+  <link rel="stylesheet" type="text/css" href="../common/base/base.css" />
+  <link rel="stylesheet" type="text/css" href="../lib/swiper-bundle.css" />
+  <link rel="stylesheet" type="text/css" href="./header/header.css" />
+  <link rel="stylesheet" type="text/css" href="./category/category.css" />
+  <link rel="stylesheet" type="text/css" href="./list/list.css" />
+  <link rel="stylesheet" type="text/css" href="../common/bottomBar/bottomBar.css" />
+  <script type="text/javascript" src="../lib/zepto.min.js"></script>
+  <script type="text/javascript" src="../lib/swiper-bundle.min.js"></script>
+  <script type="text/javascript" src="../common/base/flexible.js"></script>
+</head>
+
+<body>
+  <!--头部-->
+  <header class="header">
+    <div class="search-bar">
+      <div class="bar-location">
+        <span class="location-icon iconfont">&#xe679;</span>
+        <span class="location-text">上海市</span>
+        <span class="location-arrow iconfont">&#xe604;</span>
+      </div>
+      <div class="search-btn">
+        <span class="search-icon iconfont">&#xe69e;</span>
+        <input type="text" placeholder="鸡翅" class="search-input" />
+      </div>
+    </div>
+  </header>
+
+  <!--类目-->
+  <div class="category-content"></div>
+
+  <!--商家列表-->
+  <div class="list-content">
+    <h4 class="list-title">
+      <span class="title-line"></span>
+      <span>附近商家</span>
+      <span class="title-line"></span>
+    </h4>
+    <div class="list-wrap"></div>
+    <div id="loading" class="loading"></div>
+  </div>
+
+  <!--底部-->
+  <footer class="bottom-bar"></footer>
+
+  <script type="text/javascript" src="./category/category.js"></script>
+  <script type="text/javascript" src="./list/list.js"></script>
+  <script type="text/javascript" src="../common/bottomBar/bottomBar.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,78 @@
+/*all tags*/
+*{
+    margin:0; 
+    padding:0;        
+}
+
+/*主体*/
+#main{
+    width: 1200px;
+    height:510px;
+    margin:30px auto;
+    font-family:"Microsoft YaHei";
+    color:#666;
+}
+
+a{text-decoration: none;}
+a:link{color:#666;}
+a:visited{color:#666;}
+
+
+/*标题*/
+#tab{
+    list-style-type:none; 
+    overflow: hidden; 
+    box-shadow:0 0 1px 0 #ccc; /*边框阴影*/
+}
+
+.label{
+    float:left;
+    width:25%;
+    height:50px;
+    line-height: 50px;
+    font-size:22px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.active{
+    background:#ffcc00;
+    border-radius:5px;
+    font-weight:bold;
+}
+
+/*图片*/
+#banner{
+    width:1200px;
+    height:460px;
+    position:relative;
+    overflow:hidden;
+}
+
+.pics{
+    width:1200px;
+	height:460px;
+	background-repeat:no-repeat;
+	float:left;
+	display:none;
+}
+
+.pics-active{
+	display:block;
+}
+
+#banner a:first-child .pics{
+    background-image:url(../img/1.jpg);
+}
+
+#banner a:nth-child(2) .pics{
+    background-image:url(../img/3.jpg);
+}
+
+#banner a:nth-child(3) .pics{
+    background-image:url(../img/4.jpg);
+}
+
+#banner a:last-child .pics{
+    background-image:url(../img/5.jpg);
+}

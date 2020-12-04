@@ -1,0 +1,13 @@
+.comment-filter {
+  background-color: #fff;
+  padding: 0.2rem;
+}
+
+.tag-item{
+  float: left;
+  padding: 0.08rem 0.15rem;
+  margin: 0.133333rem 0.2rem;
+  font-size: 0.35rem;
+  background-color: #ffedc1;
+  border-radius: 0.053333rem;
+}
