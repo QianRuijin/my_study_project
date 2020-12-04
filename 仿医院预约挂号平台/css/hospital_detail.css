@@ -1,0 +1,187 @@
+/*医院体系区*/
+.label{
+    height:30px;
+    font-size:14px;
+    line-height:30px;
+    text-align: center;
+    font-weight:bold;
+    border-bottom:2px solid #60bff2;
+}
+
+.label a{
+    float:left;
+    color:#60bff2;
+    width:110px;
+}
+
+.label .selected{
+    color:#fff;
+    background:#60bff2;
+}
+
+.page{
+    margin:20px 0 80px 0;
+    width:100%;
+}
+
+.hidden{
+    display:none;
+}
+
+/*预约挂号页*/
+.department-table{
+    float:left;
+    border-collapse:collapse;
+    cellspacing:0;
+    cellpadding:0;
+    width:705px;
+    height:405px;
+    font-weight:bold;
+    border:1px solid #f4f6fa;
+}
+
+.department-table caption{
+    height:45px;
+    line-height:45px;
+    text-align: left;
+    text-indent:1em;
+    background:#f4f6fa;
+}
+
+.department-table tr{
+    border-bottom:1px solid #f4f6fa;    
+}
+
+.department-table .table-item{
+    width:145px;
+    height:89x;
+    color:#888;
+    text-align:center;
+    vertical-align: top;
+    background:#f2fbff;
+}
+
+.department-table .table-content a{
+    float:left;
+    width:110px;
+    height:29px;
+    margin-left:20px;
+    font-size:14px;
+    text-align:left;
+    line-height:29px;
+    color:#4c4948;  
+}
+
+.reservation-rule{
+    float:right;
+    width:275px;
+    height:285px;
+    border:1px solid #f4f6fa;
+    font-size:14px;
+}
+
+.reservation-rule-title{
+    height:40px;
+    line-height:40px;
+    font-size:16px;
+    text-indent:0.5em;
+    color:#606060;
+    background:#f4f6fa;
+}
+
+.reservation-rule-title span{
+    font-size:12px;
+    color:#00b3ea;
+}
+
+.reservation-rule-content{
+    width:275px;
+    height:245px;
+    line-height:16px;
+    overflow: auto;
+} 
+
+.reservation-rule-content div{
+    float:left;
+    padding-top:8px;
+}
+
+.reservation-rule-content span{
+    float:left;
+    width:72px;
+    text-align: center;
+    color:#555;
+}
+
+.reservation-rule-content p{
+    float:right;
+    width:185px;
+    color:#888;
+}
+/*医院介绍页*/
+.page>.page-item:nth-child(2){
+    font-size:14px;
+    line-height:2em;
+    text-indent:2em;
+    padding:0 14px;
+}
+/*预约须知页*/
+.page>.page-item:nth-child(3){
+    font-size:14px;
+    line-height:2em;
+    text-indent:2em;
+    padding:0 14px;
+}
+
+.page>.page-item:nth-child(3) h3{
+    text-align:center;
+}
+/*停诊信息页*/
+.page>.page-item:nth-child(4) table{
+    border-collapse:collapse;
+    cellspacing:0;
+    cellpadding:0;
+    margin:0 auto;
+    width:980px;
+    border:1px solid #eee;
+}
+
+.page>.page-item:nth-child(4) table caption{
+    height:40px;
+    font-family:黑体;
+    font-size:20px;
+    font-weight:bolder;
+}
+
+.page>.page-item:nth-child(4) table td{
+    height:24px;
+    text-align:center;
+    vertical-align:middle;
+    border:1px solid #eee;
+}
+
+/*查询取消页*/
+.cancel{
+    margin:50px 0;
+    padding:60px 0;
+    border-top:1px solid #eee;
+    border-bottom:1px solid #eee;
+    text-align:center;
+}
+
+.cancel input{
+    height:20px;
+    width:160px;
+    border:1px solid #999;
+    outline:none;
+}
+
+.cancelBtn{
+    height:22px;
+    width:80px;
+    border:none;
+    outline:none;
+    color:#fff;
+    background:#60bff2;
+    cursor: pointer;
+}
