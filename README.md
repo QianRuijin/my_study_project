@@ -64,6 +64,7 @@
 <figure>
   <figcaption>项目效果图</figcaption>
   <img src="https://img.mukewang.com/climg/5c7f2ea00001148722410974.jpg" />
+  <img src="https://img.mukewang.com/climg/5c7f2ea00001148722410974.jpg" />
 </figure>
 
 <hr />
