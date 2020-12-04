@@ -5,11 +5,13 @@
 
 <h3>1.网页表格排版练习</h3>
 <p><strong>主要技术：</strong>HTML</p></p></p></p>
-<p><strong>项目内容：</strong>此项目主要是搭建简单网页，使用表格布局。非常简单吧。</p></p></p>
+<p><strong>项目内容：</strong>此项目主要是搭建简单网页，使用表格布局。一个很简单的测试。</p></p></p>
 <figure>
   <figcaption>项目效果图</figcaption>
   <img src="https://img.mukewang.com/climg/5ee9e8f809b4973b21301174.jpg" />
 </figure>
+
+<hr />
 
 <h3>2.CSS2-10练习</h3>
 <p><strong>主要技术：</strong>HTML CSS</p></p></p></p>
@@ -23,9 +25,7 @@
   <img src="https://img.mukewang.com/climg/5c7f319d0001384b12261600.jpg" />
 </figure>
 
-  
 <hr />
-
 
 <h3>3.Carousel 制作轮播图</h3>
 <p><strong>主要技术：</strong>HTML CSS js</p></p></p></p>
@@ -41,14 +41,18 @@
 <hr />
 
 
-<h3>4.</h3>
+<h3>4.web_project 宣传页项目</h3>
 <p><strong>主要技术：</strong>HTML CSS js</p></p></p></p>
-<p><strong>项目内容：</strong>此项目主要是</p></p></p>
-   <p>a.</p>
-   <p>b.</p>
-   <p>c.</p>
-   <p>d.</p>
+<p><strong>项目内容：</strong>此项目主要是练习js制作动画页面。运用css动画和js控制实现文字和图片的闪现、缩放等动画，还有呼吸灯、跟随效果、侧边悬浮导航栏的实现等。</p></p></p>
+   <p>a.先实现静态效果页，再实现JavaScript交互效果</p>
+   <p>b.常用方法、组件的封装，动画的初始化</p>
+   <p>c.元素高度的获取及绑定相应事件</p>
+   <p>d.动画的不同实现方式</p>
 <figure>
   <figcaption>项目效果图</figcaption>
-  <img src="https://img.mukewang.com/climg/5c7f319d0001384b12261600.jpg" />
+  <img src="https://climg.mukewang.com/58341d710001490906410217.jpg" />
+  <img src="https://climg.mukewang.com/58341d7a000169d506430215.jpg" />
+  <img src="https://climg.mukewang.com/58341d84000104e506430218.jpg" />
+  <img src="https://climg.mukewang.com/58341d8d0001027906430197.jpg" />
+  <img src="https://climg.mukewang.com/58341d96000103d706430371.jpg" />
 </figure>
