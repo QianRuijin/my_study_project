@@ -1,0 +1,352 @@
+/*all tag*/
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Microsoft YaHei";
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+}
+
+/*页头*/
+header {
+  width: 100%;
+  height: 124px;
+  background: #efefef;
+  border-bottom: 2px solid rgb(36, 135, 201);
+}
+
+.cantainer {
+  width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.cantainer a:hover {
+  color: red;
+}
+
+.logo {
+  height: 110px;
+  margin: 7px 0;
+  float: left;
+  font-size: 31px;
+  line-height: 110px;
+}
+
+.serviceCenter {
+  float: left;
+  height: 110px;
+  font-size: 25px;
+  padding: 0 10px 0 110px;
+  background: url("../img/logo.png") left center no-repeat;
+}
+
+.split {
+  float: left;
+}
+
+.customerService {
+  float: left;
+  margin-left: 10px;
+  color: #666;
+  font-size: 18px;
+}
+
+.nav {
+  height: 22px;
+  margin: 51px 0;
+  font-size: 18px;
+  line-height: 22px;
+  float: right;
+}
+
+.main-nav_item {
+  float: left;
+  margin-left: 20px;
+}
+
+.home {
+  color: rgb(251, 116, 3);
+}
+
+.login {
+  color: rgb(251, 116, 3);
+  padding: 0 6px;
+}
+
+#myImooc {
+  height: 36px;
+  /*控制下拉菜单间距，不用margin以避免间隙，使hover/mouseover正常运作*/
+  width: 160px;
+  position: relative;
+}
+
+/*三角符号样式*/
+.triangle {
+  display: inline-block;
+  width: 0;
+  border: 8px solid transparent;
+  border-top-color: black;
+  position: absolute;
+  top: 8px;
+  left: 108px;
+}
+
+/*子导航样式*/
+.sub-nav {
+  width: 160px;
+  height: 312px;
+  border: 1px solid rgb(251, 116, 3);
+  font-size: 14px;
+  padding-top: 5px;
+  background: #fcfcfc;
+  position: absolute;
+  z-index: 3;
+  /*使子导航位于最上层，不被遮盖破坏mouseover效果*/
+  margin-right: 0px;
+  display: none;
+}
+
+.sub-nav_item {
+  margin: 0 10px;
+  padding: 3px 4px;
+}
+
+.sub-nav_item:nth-of-type(2),
+.sub-nav_item:nth-of-type(3),
+.sub-nav_item:nth-of-type(5),
+.sub-nav_item:nth-of-type(6),
+.sub-nav_item:nth-of-type(8),
+.sub-nav_item:nth-of-type(9) {
+  border-bottom: 1px dotted #666;
+}
+
+.sub-nav_item a {
+  color: #666;
+}
+
+.sub-nav_item a:hover {
+  color: red;
+}
+
+.main-nav_item_phone {
+  margin-left: 5px;
+}
+
+/*下拉菜单效果CSS实现方式*/
+/*.main-nav_item_myImooc:hover .sub-nav{  
+    display:block;
+}*/
+
+/*.triangle:hover{            
+    border-top-color:red;
+}*/
+
+.phone {
+  height: 22px;
+  padding-left: 20px;
+  background: url("../img/phone-1.png") left center no-repeat;
+  background-size: contain;
+}
+
+/*主体*/
+.main {
+  width: 1200px;
+  height: 800px;
+  ;
+  margin: 0 auto;
+  position: relative;
+}
+
+.location {
+  font-size: 18px;
+  line-height: 18px;
+  margin: 15px 0;
+}
+
+.location_msg,
+.location_msg a {
+  color: #666;
+}
+
+.location_msg a:hover {
+  color: red;
+}
+
+.registry {
+  width: 100%;
+  height: 630px;
+  border: 1px solid rgb(251, 116, 3);
+  border-radius: 10px;
+}
+
+.registry_title {
+  height: 43px;
+  font-size: 20px;
+  font-weight: normal;
+  text-indent: 1em;
+  line-height: 43px;
+  color: white;
+  background: rgb(251, 116, 3);
+  border-radius: 10px;
+  margin-bottom: 50px;
+}
+
+.registry ul li {
+  position: relative;
+  width: 100%;
+  height: 21px;
+  margin-top: 16px;
+  font-size: 14px;
+  line-height: 21px;
+  overflow: hidden;
+}
+
+.label,
+.context,
+.tips {
+  float: left;
+}
+
+.label {
+  width: 380px;
+  overflow: hidden;
+}
+
+.label .required {
+  float: left;
+  width: 290px;
+  color: red;
+  text-align: right;
+  padding-right: 5px;
+}
+
+.label .label_item {
+  float: left;
+  text-align: justify;
+  width: 60px;
+  padding-right: 5px;
+}
+
+.label .label_item::after {
+  /*在文本后添加内容，使两端对齐生效*/
+  content: "";
+  width: 100%;
+  display: inline-block;
+  overflow: hidden;
+  height: 0;
+}
+
+.context {
+  width: 208px;
+  height: 19px;
+  border: 1px solid #abadb3;
+  margin-right: 10px;
+}
+
+#paperwork,
+#types {
+  width: 210px;
+  height: 21px;
+}
+
+.tips {
+  font-size: 13px;
+  color: rgb(251, 116, 3);
+}
+
+#pwd_rank {
+  float: left;
+  width: 200px;
+}
+
+.safe_rank {
+  display: inline-block;
+  width: 42px;
+  height: 7px;
+  background: #ddd;
+  margin: 7px 4px 7px 0;
+}
+
+.s1 {
+  background: red;
+}
+
+.pwdtip {
+  font-size: 13px;
+  margin-left: 380px;
+  margin-top: 5px;
+}
+
+.namerule {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#term {
+  margin-left: 380px;
+}
+
+.terms {
+  color: #006ee1;
+}
+
+#nextBtn {
+  width: 230px;
+  height: 37px;
+  color: white;
+  background: rgb(251, 116, 3);
+  margin: 64px;
+  margin-left: 450px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  /*消除默认点击边框效果*/
+}
+
+#nextBtn:hover {
+  background: rgb(212, 116, 38);
+}
+
+/*姓名填写规则*/
+#rule {
+  position: absolute;
+  width: 400px;
+  padding: 10px;
+  font-size: 12px;
+  line-height: 30px;
+  background: white;
+  border: 1px solid rgb(36, 135, 201);
+  z-index: 2;
+  display: none;
+}
+
+/*页脚*/
+footer {
+  width: 100%;
+  height: 100px;
+  background: #dcdcdc;
+  font-size: 17px;
+  line-height: 17px;
+  color: #a19999;
+  text-align: center;
+  border-top: 2px solid rgb(36, 135, 201);
+}
+
+.footer_link {
+  margin: 25px 0 17px 0;
+}
+
+.footer_link a {
+  color: #a19999;
+}
+
+.footer_link a:hover {
+  color: red;
+}
