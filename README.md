@@ -64,7 +64,6 @@
 <figure>
   <figcaption>项目效果图</figcaption>
   <img src="https://img.mukewang.com/climg/5c7f2ea00001148722410974.jpg" />
-  <img src="https://img.mukewang.com/climg/5c7f2ea00001148722410974.jpg" />
 </figure>
 
 <hr />
@@ -78,19 +77,19 @@
 <hr />
 
 <h3>7.仿12306注册页面 JS表单验证</h3>
-<p><strong>主要技术：</strong>HTML CSS3动画 js</p></p></p></p>
-<p><strong>项目内容：</strong>此项目主要是</p></p></p>
-   <p>a.</p>
-   <p>b.</p>
-   <p>c.</p>
+<p><strong>主要技术：</strong>HTML CSS3 js 正则表达式</p></p></p></p>
+<p><strong>项目内容：</strong>此项目为模仿12306制作注册页面，练习常用字符的正则匹配。表单的验证提交。</p></p></p>
+   <p>a.常用的表单元素，表单值的获取。表单的表现及行为。</p>
+   <p>b.常用字符的正则匹配</p>
+   <p>c.密码安全级别判定及显示</p>
 <figure>
   <figcaption>项目效果图</figcaption>
-  <img src="" />
+  <img src="https://climg.mukewang.com/597050b60001ba5619150990.jpg" />
 </figure>
 
 <hr />
 
-<h3>5.</h3>
+<h3>8.仿医院预约挂号平台</h3>
 <p><strong>主要技术：</strong>HTML CSS3动画 js</p></p></p></p>
 <p><strong>项目内容：</strong>此项目主要是</p></p></p>
    <p>a.</p>
@@ -98,7 +97,8 @@
    <p>c.</p>
 <figure>
   <figcaption>项目效果图</figcaption>
-  <img src="" />
+  <img src="https://img.mukewang.com/climg/5a6a9d2400017e8723001099.jpg" />
+  <img src="https://img.mukewang.com/climg/5a6a9d2b0001c05f23001099.jpg" />
 </figure>
 
 <hr />
