@@ -51,7 +51,7 @@ nav{
     color:white;
     font-size:14px;
     line-height:14px;
-    margin:23px 40px 23px 0;
+    padding:23px 40px 23px 0;
     float:left;
 }
 
@@ -356,6 +356,7 @@ nav{
     border-radius: 5px;
     background: white;
     cursor: pointer;
+    outline-style: none;
 }
 
 .bottom__button:hover{

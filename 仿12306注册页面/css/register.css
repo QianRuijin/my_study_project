@@ -12,6 +12,10 @@ a {
   display: inline-block;
 }
 
+body {
+  min-width: 1200px;
+}
+
 /*页头*/
 header {
   width: 100%;

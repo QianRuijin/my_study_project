@@ -193,5 +193,6 @@ ctx.bezierCurveTo(358, 407, 392, 366, 427, 388);
 ctx.quadraticCurveTo(416, 409, 393, 435);
 ctx.lineTo(390, 434);
 ctx.fillStyle="#fff";
+ctx.closePath();
 ctx.stroke();
 ctx.fill();

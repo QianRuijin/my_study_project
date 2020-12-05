@@ -24,7 +24,7 @@ function AnalyzePwdSecurityLevel(password) {
 
 //检验是否含特殊字符函数
 function containSpecialChar(str) {
-  var containSpecial = RegExp(/[(\ )(\~)(\!)(\@)(\#)(\$)(\%)(\^)(\&)(\*)(\()(\))(\-)(\_)(\+)(\=)(\[)(\])(\    {)(\})(\|)(\\)(\;)(\:)(\')(\")(\,)(\.)(\/)(\<)(\>)(\?)(\)]+/);
+  var containSpecial = RegExp(/[(\ )(\~)(\!)(\@)(\#)(\$)(\%)(\^)(\&)(\*)(\()(\))(\-)(\_)(\+)(\=)(\[)(\])(\{)(\})(\|)(\\)(\;)(\:)(\')(\")(\,)(\.)(\/)(\<)(\>)(\?)(\)]+/);
   return (containSpecial.test(str));
 }
 
@@ -176,6 +176,7 @@ confirm.onblur = check3;
 //姓名验证
 function check4() {
   var pattern = /^[\u4e00-\u9fa5]{2,15}$|^[a-zA-Z]{3,30}$/;
+  rule.style.display = "none";
   if (pattern.test(username.value)) {
     nametip.innerHTML = "姓名输入正确";
     nametip.style.color = "green";

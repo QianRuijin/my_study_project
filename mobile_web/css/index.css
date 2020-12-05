@@ -13,7 +13,7 @@ header{
 .header-nav{
     display:flex;
     height:4rem;
-    font-size:.8rem;
+    font-size:1.4rem;
     align-items: center;   
     justify-content: center;
 }
@@ -31,7 +31,7 @@ header{
     display:flex;
     width:100%;
     height:4rem;
-    font-size:1rem;   
+    font-size:1.6rem;   
     color:white;
     background:#7EA6B1 ;
     align-items: center;   
@@ -87,7 +87,7 @@ header{
     margin-bottom:2rem;
 }
 .hender-content-title{
-    font-size:.8rem;
+    font-size:1.4rem;
     color:white;
 }
 .hender-content-btn{
@@ -126,14 +126,14 @@ header{
     align-items: center;
 }
 .content-title{
-    font-size:1.2rem;
+    font-size:1.8rem;
     color:#545454;
     font-weight:normal;
     text-align:center;
     margin-bottom:2rem;
 }
 .content-text{
-    font-size:0.8rem;
+    font-size:1rem;
     color:#bababa;
     line-height:1.2rem;
     margin:0 12rem;
@@ -164,10 +164,10 @@ header{
 .website{
     height:1.6rem;
     line-height:1.6rem;
-    font-size:0.8rem;
+    font-size:1.2rem;
 }
 .website a{
-    font-size:0.8rem;
+    font-size:1.2rem;
 }
 /*第五部分*/
 .course-container{

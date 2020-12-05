@@ -106,4 +106,4 @@
 
 // 调用组件
 var $carousel = $('#carousel'),
-    slide = new $Slide($carousel, {animation: 'slide', interval: 1000, activeIndex: 0});
+    slide = new $Slide($carousel, {animation: 'slide', interval: 3000, activeIndex: 0});

@@ -1,3 +1,20 @@
+/*顶部动画*/
+.header_animate_fadeInDwn {
+  animation-duration: 2s;
+  animation-name: fadeInDown;
+}
+
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 /*第一屏动画*/
 .screen-1__heading_animate_init,
 .screen-1__text_animate_init{

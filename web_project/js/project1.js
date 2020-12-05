@@ -88,7 +88,7 @@ function setScreenAnimateInit(screenCls) {
 //初始化设置
 window.onload = function () {
     for(k in screenAnimateElements){
-      if(k == '.screen-1'){
+      if(k == '.screen-1' || k == '.screen-2'){
         continue;
       }
       setScreenAnimateInit(k);
@@ -135,11 +135,9 @@ var switchNavItemsActive = function(idx){
 window.onscroll = function () {
     var top=document.body.scrollTop||document.documentElement.scrollTop; //兼容性写法
 
-    if( top > 200 ){
+    if( top < 300 ){
         addCls(getElem('.header'),'header_status_white');
         switchNavItemsActive(0);
-    }else{
-        delCls(getElem('.header'),'header_status_white');    
     }
 
     if( top > (300) ){
