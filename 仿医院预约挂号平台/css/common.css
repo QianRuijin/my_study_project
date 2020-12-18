@@ -1,268 +1,273 @@
 /*all tag*/
-*{
-    margin:0;
-    padding:0;
-    font-family:宋体,'Microsoft YaHei';
-    list-style-type: none;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 宋体, 'Microsoft YaHei';
+  list-style-type: none;
 }
 
-body{
-    min-width:1000px;
+body {
+  min-width: 1000px;
 }
 
-a{
-    text-decoration:none;
+a {
+  text-decoration: none;
 }
 
-.wrap{
-	width: 1000px;
-	margin:0 auto;
-	position: relative;
+.wrap {
+  width: 1000px;
+  margin: 0 auto;
+  position: relative;
 }
 
-.clearfix:after{
-	content: ' ';
-	display: block;
-	height: 0;
-	line-height: 0;
-	clear: both;
-	zoom: 1;
+.clearfix:after {
+  content: ' ';
+  display: block;
+  height: 0;
+  line-height: 0;
+  clear: both;
+  zoom: 1;
 }
 
 /*top区*/
 .top {
-    width:100%;
-	height: 30px;
-    background-color: #f5f5f5;
-    line-height: 30px;
-	font-size: 13px;
-	color: #868686;
+  width: 100%;
+  height: 30px;
+  background-color: #f5f5f5;
+  line-height: 30px;
+  font-size: 13px;
+  color: #868686;
 }
 
-.top .call{
-	float: left;
-	padding-left: 20px;
-	background: url(../img/icon-call.png) no-repeat center left;
+.top .call {
+  float: left;
+  padding-left: 20px;
+  background: url(../img/icon-call.png) no-repeat center left;
 }
 
-.top .welcome{
-	float: right;
+.top .welcome {
+  float: right;
 }
 
-.top a{
-	color: #2da5e1;
-	padding-left: 10px;
+.top a {
+  color: #2da5e1;
+  padding-left: 10px;
 }
 
 /*header区*/
-header{
-	height: 92px;
+header {
+  height: 92px;
 }
 
-header .logo{
-	width: 402px;
-	height: 74px;
-	padding: 9px 0;
-	display: inline-block;
+header .logo {
+  width: 402px;
+  height: 74px;
+  padding: 9px 0;
+  display: inline-block;
 }
-header .logo img{
-	width: 100%;
-	height: 100%;
+
+header .logo img {
+  width: 100%;
+  height: 100%;
 }
+
 header .search {
-	width: 326px;
-	height: 38px;
-	position: absolute;
-	right: 0px;
-    top: 29px;
-    background:url(../img/ui-search.jpg) no-repeat;
-    font-size: 14px;
+  width: 326px;
+  height: 38px;
+  position: absolute;
+  right: 0px;
+  top: 29px;
+  background: url(../img/ui-search.jpg) no-repeat;
+  font-size: 14px;
 }
 
-.search-selected, 
-.search-input, 
-.search-submit{
-    float:left; 
-    height:38px; 
+.search-selected,
+.search-input,
+.search-submit {
+  float: left;
+  height: 38px;
 }
 
-.search-selected{
-    width:70px; 
-    height:38px; 
-    text-indent:14px; 
-    line-height:38px; 
-    color:white;
+.search-selected {
+  width: 70px;
+  height: 38px;
+  text-indent: 14px;
+  line-height: 38px;
+  color: white;
 }
 
-.search-list{
-    position:absolute; 
-    top:36px; 
-    left:2px; 
-    background-color: #fff;
-    box-shadow: 3px 3px 5px rgba(0,0,0,.2);
-    width:67px; 
-    height:90;
-    line-height: 24px;
-    z-index: 2;
-    display:none;
-}
-.search-list a{
-    float:left;
-    width:67px;
-    text-align:center;
-    color: #A5a2a2;
+.search-list {
+  position: absolute;
+  top: 36px;
+  left: 2px;
+  background-color: #fff;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, .2);
+  width: 67px;
+  height: 90;
+  line-height: 24px;
+  z-index: 2;
+  display: none;
 }
 
-.search-list a:hover{ 
-    background: #ebeef5;
+.search-list a {
+  float: left;
+  width: 67px;
+  text-align: center;
+  color: #A5a2a2;
 }
 
-.search-input{
-    width:205px; 
-    height: 34px;
-    margin:2px 0;
-    border:none; 
-    outline:none; 
-    padding:0 5px;
-    color: #A5A2A2;
+.search-list a:hover {
+  background: #ebeef5;
 }
 
-.search-submit{
-    width:41px;
+.search-input {
+  width: 205px;
+  height: 34px;
+  margin: 2px 0;
+  border: none;
+  outline: none;
+  padding: 0 5px;
+  color: #A5A2A2;
 }
+
+.search-submit {
+  width: 41px;
+}
+
 /*nav区*/
-nav{width:100%; 
-    height:36px; 
-    font-size: 16px;
-    line-height: 36px; 
-    background:#60bff2;
+nav {
+  width: 100%;
+  height: 36px;
+  font-size: 16px;
+  line-height: 36px;
+  background: #60bff2;
 }
 
-nav a{
-    float:left; 
-    padding: 0 20px; 
-    text-align: center;
-    color:white;
+nav a {
+  float: left;
+  padding: 0 20px;
+  text-align: center;
+  color: white;
 }
 
-nav .nav-item_last{
-    float:right;
-    width:100px;
+nav .nav-item_last {
+  float: right;
+  width: 100px;
 }
 
-nav a:hover{
-    background:#87CEEB;
+nav a:hover {
+  background: #87CEEB;
 }
 
 /*医院简介区*/
-.introduction{
-    width:950px;
-    height:260px;
-    margin:30px auto 40px auto;
-    padding:0 25px;
-    background:#F7F7F7;
+.introduction {
+  width: 950px;
+  height: 260px;
+  margin: 30px auto 40px auto;
+  padding: 0 25px;
+  background: #F7F7F7;
 }
 
-.introduction-top{
-    height:52px;
-    border-bottom:2px solid #dcdddd;
-    font-weight:bold;
+.introduction-top {
+  height: 52px;
+  border-bottom: 2px solid #dcdddd;
+  font-weight: bold;
 }
 
-.hospital_name{
-    float:left;
-    height:52px;
-    line-height:52px;
-    font-size:17px;
+.hospital_name {
+  float: left;
+  height: 52px;
+  line-height: 52px;
+  font-size: 17px;
 }
 
-.follow{
-    font-size:13px;
-    color:#f29600;
-    margin-left:10px;
+.follow {
+  font-size: 13px;
+  color: #f29600;
+  margin-left: 10px;
 }
 
-.hospital_class{
-    float:right;
-    font-size:13px;
-    line-height:52px;
+.hospital_class {
+  float: right;
+  font-size: 13px;
+  line-height: 52px;
 }
 
-.hospital_class dt{
-    float:left;
-    color:blue;
-    margin-left:1em;
+.hospital_class dt {
+  float: left;
+  color: blue;
+  margin-left: 1em;
 }
 
-.hospital_class dd{
-    float:left;   
+.hospital_class dd {
+  float: left;
 }
 
-.introduction-bottom{
-    margin:12px 0;
-    height:182px;
+.introduction-bottom {
+  margin: 12px 0;
+  height: 182px;
 }
 
-.introduction-bottom .introduction-left{
-    float:left;
-    width:200px;
-    height:182px;
-    background:url("../img/hospital-1.jpg") no-repeat left top;
-    background-size:contain;
+.introduction-bottom .introduction-left {
+  float: left;
+  width: 200px;
+  height: 182px;
+  background: url("../img/hospital-1.jpg") no-repeat left top;
+  background-size: contain;
 }
 
-.introduction-bottom .introduction-middle{
-    float:left;
-    width:420px;
-    margin:0 20px 0 30px;
-    padding-left:30px;
-    font-size:12px;
-    line-height:20px;
-    color:#888;
+.introduction-bottom .introduction-middle {
+  float: left;
+  width: 420px;
+  margin: 0 20px 0 30px;
+  padding-left: 30px;
+  font-size: 12px;
+  line-height: 20px;
+  color: #888;
 }
 
-.introduction-bottom .introduction-middle p{
-    margin-top:10px;
-    position:relative;
+.introduction-bottom .introduction-middle p {
+  margin-top: 10px;
+  position: relative;
 }
 
-.introduction-bottom .introduction-middle p::before{
-    content:"";
-    position:absolute;
-    top:2px;
-    left:-30px;
-    display:block;
-    width:16px;
-    height:20px;
-    background:url("../img/icon-web.png") no-repeat 0 0;
+.introduction-bottom .introduction-middle p::before {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: -30px;
+  display: block;
+  width: 16px;
+  height: 20px;
+  background: url("../img/icon-web.png") no-repeat 0 0;
 }
 
-.introduction-bottom .introduction-middle p:nth-child(2)::before{
-    background-position-y:-21px;
+.introduction-bottom .introduction-middle p:nth-child(2)::before {
+  background-position-y: -21px;
 }
 
-.introduction-bottom .introduction-middle p:nth-child(3)::before{
-    background-position-y:-42px;
+.introduction-bottom .introduction-middle p:nth-child(3)::before {
+  background-position-y: -42px;
 }
 
-.introduction-bottom .introduction-middle p:nth-child(4)::before{
-    background-position-y:-63px;
+.introduction-bottom .introduction-middle p:nth-child(4)::before {
+  background-position-y: -63px;
 }
 
-.introduction-bottom .introduction-right{
-    float:left;
-    width:250px;
-    height:170px;
-    cursor: pointer;
+.introduction-bottom .introduction-right {
+  float: left;
+  width: 250px;
+  height: 170px;
+  cursor: pointer;
 }
 
 /*footer区*/
-footer{
-    width: 100%;
-    height:70px;
-    font-size:13px;
-    line-height:70px;
-    text-align:center;
-    background:#eceef2;
-    color:#acacac;
+footer {
+  width: 100%;
+  height: 70px;
+  font-size: 13px;
+  line-height: 70px;
+  text-align: center;
+  background: #eceef2;
+  color: #acacac;
 }

@@ -1,114 +1,108 @@
 /*科室安排区*/
 /*scheduling头部*/
-.scheduling-title{
-    height:40px;
-    line-height:40px;
-    font-size:17px;
-    font-family:黑体;
-    text-indent:0.5em;
+.scheduling-title {
+  height: 40px;
+  line-height: 40px;
+  font-size: 17px;
+  font-family: 黑体;
+  text-indent: 0.5em;
 }
 
-.scheduling-title a{
-    font-size:15px;
-    margin-left:10px;
-    color:#2da5e1;
+.scheduling-title a {
+  font-size: 15px;
+  margin-left: 10px;
+  color: #2da5e1;
 }
 
 /*scheduling中部*/
-.scheduling-form{
-   
+.schedule {
+  float: left;
+  width: 728px;
+  height: 325px;
 }
 
-.schedule{
-    float:left;
-    width:728px;
-    height:325px;
+.schedule table {
+  border-collapse: collapse;
+  width: 730px;
+  height: 327px;
+  font-size: 14px;
 }
 
-.schedule table{
-    border-collapse:collapse;
-    cellspacing:0;
-    cellpadding:0;
-    width:730px;
-    height:327px;
-    font-size:14px;
+.schedule table td {
+  text-align: center;
+  vertical-align: middle;
+  border: 1px solid #dcdddd;
 }
 
-.schedule table td{  
-    text-align:center;
-    vertical-align:middle;
-    border:1px solid #dcdddd;
+.schedule table .time {
+  background: #f8fafc;
+  color: #868686;
 }
 
-.schedule table .time{
-    background: #f8fafc;
-    color:#868686;
+.schedule table .previous {
+  background: url("../img/icon-scheduling-left.jpg") no-repeat center;
+  cursor: pointer;
 }
 
-.schedule table .previous{
-    background:url("../img/icon-scheduling-left.jpg") no-repeat center;
-    cursor: pointer;
+.schedule table .next {
+  background: url("../img/icon-scheduling-right.jpg") no-repeat center;
+  cursor: pointer;
 }
 
-.schedule table .next{
-    background:url("../img/icon-scheduling-right.jpg") no-repeat center;
-    cursor: pointer;
+.schedule table .status {
+  height: 94px;
+  background: #e0eefd;
+  color: #4ab4ed;
+  cursor: pointer;
 }
 
-.schedule table .status{
-    height:94px;
-    background:#e0eefd; 
-    color:#4ab4ed;
-    cursor: pointer;
+.reservation-rule {
+  float: right;
+  padding: 0 20px 0 10px;
+  width: 239px;
+  height: 325px;
+  line-height: 20px;
+  overflow-y: auto;
+  border: 1px solid #dcdddd;
+  border-left: none;
 }
 
-.reservation-rule{
-    float:right;
-    padding:0 20px 0 10px;
-    width:239px;
-    height:325px;
-    line-height:20px;
-    overflow-y: auto;
-    border:1px solid #dcdddd;
-    border-left:none;
+.reservation-rule h3 {
+  padding-top: 10px;
+  font-family: 黑体;
+  line-height: 40px;
 }
 
-.reservation-rule h3{
-    padding-top:10px;
-    font-family:黑体;
-    line-height:40px;
+.reservation-rule dl {
+  font-size: 14px;
 }
 
-.reservation-rule dl{
-    font-size:14px;
+.reservation-rule dt {
+  padding-top: 5px;
+  font-weight: bold;
 }
 
-.reservation-rule dt{
-    padding-top:5px;
-    font-weight:bold;
-}
-
-.reservation-rule dd{
-    color:#888;
+.reservation-rule dd {
+  color: #888;
 }
 
 /*scheduling尾部*/
-.scheduling-result{
-    width:998px;
-    height:64px;
-    margin-bottom:110px;
-    text-align:center;
-    color:#9f9f9f;
-    border:1px solid #dcdddd;
-    border-top:none;
+.scheduling-result {
+  width: 998px;
+  height: 64px;
+  margin-bottom: 110px;
+  text-align: center;
+  color: #9f9f9f;
+  border: 1px solid #dcdddd;
+  border-top: none;
 }
 
-.scheduling-result p{
-    margin:22px 0;
-    display:inline-block;
-    padding-left:25px;
-    height:20px;
-    line-height:20px;
-    font-size:17px;
-    background:url("../img/icon-info.jpg") no-repeat left center;
+.scheduling-result p {
+  margin: 22px 0;
+  display: inline-block;
+  padding-left: 25px;
+  height: 20px;
+  line-height: 20px;
+  font-size: 17px;
+  background: url("../img/icon-info.jpg") no-repeat left center;
 }

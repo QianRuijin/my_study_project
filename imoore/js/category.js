@@ -1,20 +1,20 @@
-(function($) {
+(function ($) {
   $('#category').find('.dropdown').on('hover', function () {
-            loadOnce($(this), createCategoryDetail);
-        });
+    loadOnce($(this), createCategoryDetail);
+  });
 
 
   function createCategoryDetail($elem, data) {
     var html = '';
 
-    for (var i = 0; i < data.length; i++) {            
-        html += '<dl class="category-detail cf"><dt class="category-detail-title fl"><a href="###" target="_blank" class="category-detail-title-link">' + data[i].title + '</a></dt><dd class="category-detail-item fl">';
+    for (var i = 0; i < data.length; i++) {
+      html += '<dl class="category-detail cf"><dt class="category-detail-title fl"><a href="###" target="_blank" class="category-detail-title-link">' + data[i].title + '</a></dt><dd class="category-detail-item fl">';
 
-        for (var j = 0; j < data[i].items.length; j++) {
-            html += '<a href="###" target="_blank" class="link">' + data[i].items[j] + '</a>';
-        }
+      for (var j = 0; j < data[i].items.length; j++) {
+        html += '<a href="###" target="_blank" class="link">' + data[i].items[j] + '</a>';
+      }
 
-        html += '</dd></dl>';
+      html += '</dd></dl>';
     }
     $elem.find('.dropdown-layer').html(html);
   };
@@ -22,13 +22,13 @@
   function loadOnce($elem, success) {
     var dataLoad = $elem.data('load');
 
-    if(!dataLoad) return;
+    if (!dataLoad) return;
 
-    if(!$elem.data('loaded')){
+    if (!$elem.data('loaded')) {
       $elem.data('loaded', true);
-      $.getJSON(dataLoad).done(function(data) {
+      $.getJSON(dataLoad).done(function (data) {
         if (typeof success === 'function') success($elem, data);
-      }).fail(function() {
+      }).fail(function () {
         $elem.data('loaded', false);
       })
     }

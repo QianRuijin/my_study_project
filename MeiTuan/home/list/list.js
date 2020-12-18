@@ -141,8 +141,8 @@
   }
 
   // 绑定事件 点击跳转
-  function addClick(){
-    $('.list-item-content').click(function(){
+  function addClick() {
+    $('.list-item-content').click(function () {
       location.replace('../menu/menu.html');
     })
   }

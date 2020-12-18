@@ -54,7 +54,7 @@
       '</div>';
     // 每次加载新内容前清空之前的
     $('.right-list-inner').html('');
-    if (toTop){
+    if (toTop) {
       $('.right-list-inner').scrollTop(0);
     }
     // 渲染新内容

@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <meta charset="utf-8" />
+  <title>慕课高铁注册</title>
+  <link href="css/index.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <!--页头-->
+  <header>
+    <div class="cantainer">
+      <!--左侧LOGO区-->
+      <div class="logo">
+        <a href="###" class="serviceCenter">慕课高铁客户服务中心</a>
+        <div class="split">|</div>
+        <a href="###" class="customerService">客户服务</a>
+      </div>
+      <!--右侧导航区-->
+      <nav class="nav">
+        <ul class="main-nav">
+          <li class="main-nav_item">
+            <a href="###">意见反馈 </a>
+            <a href="###" class="home"> imooc@com</a>
+          </li>
+          <li class="main-nav_item">
+            您好，请<a href="###" class="login">登录</a>|
+            <a href="#">注册</a>
+          </li>
+          <li class="main-nav_item main-nav_item_myImooc">
+            <a href="###" id="myImooc">我的IMOOC<div class="triangle"></div></a>
+            <!--下拉框-->
+            <ul class="sub-nav">
+              <li class="sub-nav_item"><a href="###">未完成订单</a></li>
+              <li class="sub-nav_item"><a href="###">已完成订单（改/退）</a></li>
+              <li class="sub-nav_item"><a href="###">我的保险</a></li>
+              <li class="sub-nav_item"><a href="###">查看个人信息</a></li>
+              <li class="sub-nav_item"><a href="###">账户安全</a></li>
+              <li class="sub-nav_item"><a href="###">常用联系人</a></li>
+              <li class="sub-nav_item"><a href="###">重点旅客预约</a></li>
+              <li class="sub-nav_item"><a href="###">遗失物品查找</a></li>
+              <li class="sub-nav_item"><a href="###">服务查询</a></li>
+              <li class="sub-nav_item"><a href="###">投诉</a></li>
+              <li class="sub-nav_item"><a href="###">建议</a></li>
+            </ul>
+          </li>
+          <li class="main-nav_item main-nav_item_phone">
+            <a href="###" class="phone">手机版</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!--主体-->
+  <div class="main">
+    <p class="location">您现在的位置：
+      <span class="location_msg">
+        <a href="###">客运首页 </a> &gt; <a href="###"> 注册</a>
+      </span>
+    </p>
+    <form class="registry">
+      <h3 class="registry_title">账户信息</h3>
+      <ul>
+        <li>
+          <div class="label">
+            <span class="required">*</span>
+            <span class="label_item">用户名</span>：
+          </div>
+          <input type="text" placeholder="用户名设置成功后不可修改" id="user" class="context" />
+          <div class="tips usertip">6-30位字母、数字或“_”,字母开头</div>
+        </li>
+        <li>
+          <div class="label">
+            <span class="required">*</span>
+            <span class="label_item">登录密码</span>：
+          </div>
+          <input type="password" placeholder="6-20位字母、数字或符号" id="pwd" class="context" />
+          <div id="pwd_rank">
+            <span class="safe_rank s1"></span>
+            <span class="safe_rank s2"></span>
+            <span class="safe_rank s3"></span>
+          </div>
+
+        </li>
+        <div class="pwdtip"></div>
+        <li>
+          <div class="label">
+            <span class="required">*</span>
+            <span class="label_item">确认密码</span>：
+          </div>
+          <input type="password" placeholder="再次输入您的登录密码" id="confirm" class="context" />
+          <div class="tips confirmtip"></div>
+        </li>
+        <li>
+          <div class="label">
+            <span class="required">*</span>
+            <span class="label_item">姓名</span>：
+          </div>
+          <input type="text" placeholder="请输入姓名" id="username" class="context" />
+          <div class="tips nametip"><span class="namerule">姓名填写规则</span></div>
+        </li>
+        <li>
+          <div class="label">
+            <span class="required">*</span>
+            <span class="label_item">证件类型</span>：
+          </div>
+          <select id="paperwork" class="context">
+            <option value="0">二代身份证</option>
+            <option value="1">港澳通行证</option>
+            <option value="2">台湾通行证</option>
+            <option value="3">护照</option>
+          </select>
+        </li>
+        <li>
+          <div class="label">
+            <span class="required">*</span>
+            <span class="label_item">证件号码</span>：
+          </div>
+          <input type="text" placeholder="请输入您的证件号码" id="number" class="context" />
+          <div class="tips numbertip"></div>
+        </li>
+        <li>
+          <div class="label">
+            <span class="required">&nbsp;</span>
+            <span class="label_item">邮箱</span>：
+          </div>
+          <input type="text" placeholder="请正确填写邮箱地址" id="email" class="context" />
+          <div class="tips emailtip"></div>
+        </li>
+        <li>
+          <div class="label">
+            <span class="required">*</span>
+            <span class="label_item">手机号码</span>：
+          </div>
+          <input type="text" placeholder="请输入您的手机号码" id="phone" class="context" />
+          <div class="tips phonetip">请正确填写手机号码，稍后将向该手机号码发送短信验证码</div>
+        </li>
+        <li>
+          <div class="label">
+            <span class="required">*</span>
+            <span class="label_item">旅客类型</span>：
+          </div>
+          <select id="types" class="context">
+            <option value="1">成人</option>
+            <option value="2">儿童</option>
+            <option value="3">学生</option>
+            <option value="4">残疾军人、伤残人民警察</option>
+          </select>
+        </li>
+        <li>
+          <input type="checkbox" value="agree" id="term" />
+          <label for="term">我已阅读并同意遵守
+            <a href="###" class="terms">《中国铁路客户服务中心网站服务条款》</a>
+          </label>
+        </li>
+
+      </ul>
+
+      <button id="nextBtn">下一步</button>
+    </form>
+
+    <!--姓名填写规则-->
+    <div id="rule">
+      <ul>
+        <li>1.确认姓名中生僻字无法输入时，可用生僻字拼音或同音字替代。</li>
+        <li>2.输入姓名保存后，遇有系统无法正确显示的汉字，可用该汉字的拼音或同音字重新修改后保存。</li>
+        <li>3.姓名中有繁体字无法输入时，可用简体替代。</li>
+        <li>4.姓名较长，汉字与英文字符合计超过30个（1个汉字算2个字符）的，需按姓名中第一个汉字或英文字符开始按顺序连续输入30个字符（空格字符不输入），其中英文字符输入时不区别大小写。</li>
+      </ul>
+    </div>
+
+  </div>
+  <footer>
+    <p class="footer_link"><a href="###">关于我们 </a> | <a href="###">网站声明</a></p>
+    <p>Copyright &copy; 2017 imooc.com All Rights Reserved | 京ICP备 13046642号-2</p>
+  </footer>
+
+  <script type="text/javascript" src="js/index.js"></script>
+
+</body>
+
+</html>

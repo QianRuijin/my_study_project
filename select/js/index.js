@@ -10,7 +10,7 @@ for(let i of originData){
 }
 
 //脚本内容
-(function(window,document){
+(function (window, document) {
   //定义变量
   var layerstatus=false, //下拉框状态指示
       searchRecords=["未选择"],  //搜索记录

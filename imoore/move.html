@@ -1,70 +1,73 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
+
 <head>
-    <meta charset="UTF-8" />
-    <title>运动模块</title>
-    <style>
-       .box {
-            position: absolute;
-            left: 0;
-            top: 20px;
-            width: 200px;
-            height: 100px;
-            background-color: red;
-        }
-        .btns{
-            width:100px;
-            /*margin-top: 120px;*/
-        }
+  <meta charset="UTF-8" />
+  <title>运动模块</title>
+  <style>
+    .box {
+      position: absolute;
+      left: 0;
+      top: 20px;
+      width: 200px;
+      height: 100px;
+      background-color: red;
+    }
 
-        #box2 {
-           
-            left: 200px;            
-            background-color: yellow;
-        }
+    .btns {
+      width: 100px;
+      /*margin-top: 120px;*/
+    }
 
-        .slider{
-            overflow: hidden;
-            position: relative;
-            width:200px;
-            height:100px;
-            border:2px solid #ccc;
-            margin-left:100px;
-        }
-        .box{
-            left:0;
-            top:0;
-        }
-        #box2{
-            left:100%;
-        }
-        #back-btn{
-            margin-left:100px;
-        }
-        
-    </style>
-    
+    #box2 {
+
+      left: 200px;
+      background-color: yellow;
+    }
+
+    .slider {
+      overflow: hidden;
+      position: relative;
+      width: 200px;
+      height: 100px;
+      border: 2px solid #ccc;
+      margin-left: 100px;
+    }
+
+    .box {
+      left: 0;
+      top: 0;
+    }
+
+    #box2 {
+      left: 100%;
+    }
+
+    #back-btn {
+      margin-left: 100px;
+    }
+  </style>
+
 </head>
+
 <body>
-<div class="slider">
+  <div class="slider">
     <div id="box" class="box"></div>
     <div id="box2" class="box"></div>
-</div>     
-    <button id="back-btn" class="btns">&lt;</button
-    ><button id="go-btn" class="btns">&gt;</button>
+  </div>
+  <button id="back-btn" class="btns">&lt;</button><button id="go-btn" class="btns">&gt;</button>
 
 
-    <script src="./js/jquery-1.7.1.min.js"></script>
-    <script src="./js/transition.js"></script>      
-    <script src="./js/js-move.js"></script> 
+  <script src="./js/jquery-1.7.1.min.js"></script>
+  <script src="./js/transition.js"></script>
+  <script src="./js/js-move.js"></script>
 
-    <script>
-        var $box=$('#box'),
-            $box2=$('#box2'),
-            $goBtn=$('#go-btn'),
-            $backBtn=$('#back-btn');
-
-         
-    </script>   
+  <script>
+    var $box = $('#box'),
+      $box2 = $('#box2'),
+      $goBtn = $('#go-btn'),
+      $backBtn = $('#back-btn');
+  </script>
 </body>
+
 </html>

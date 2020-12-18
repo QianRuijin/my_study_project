@@ -2,7 +2,7 @@
   background: #eee;
 }
 
-.general-comment{
+.general-comment {
   margin-bottom: 0.2rem;
 }
 
@@ -24,14 +24,14 @@
   padding-left: 2rem;
 }
 
-.general-score{
+.general-score {
   position: absolute;
   top: 0;
   left: 0;
   color: orange;
 }
 
-.general-star{
+.general-star {
   font-size: .46rem;
   color: #ffd161;
 }

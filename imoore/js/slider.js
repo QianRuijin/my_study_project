@@ -1,5 +1,5 @@
-(function($) {
-  function Slide ($elem, option){
+(function ($) {
+  function Slide($elem, option) {
     this.$elem = $elem;
     this.options = option;
     this.$items = this.$elem.find('.slider-item');
@@ -7,7 +7,7 @@
     this.$contorls = this.$elem.find('.slider-control');
     this.totalNum = this.$items.length;
     this.curIndex = this._getindex(this.options.activeIndex);
-    this.interval = this.options.interval || 1000; 
+    this.interval = this.options.interval || 1000;
     this.animation = this.options.animation || 'fade';
 
     this._init();
@@ -15,29 +15,29 @@
     // 绑定事件
     var that = this;
     this.$elem
-    .hover(function() {
-      that.$contorls.show();
-    }, function() {
-      that.$contorls.hide();
-    })
-    .on('click', '.slider-control-left', function() {
-      that.to(that._getindex(that.curIndex - 1), 1);
-    })
-    .on('click', '.slider-control-right', function() {
-      that.to(that._getindex(that.curIndex + 1), -1);
-    })
-    .on('click', '.slider-indicator', function() {
-      that.to(that._getindex(that.$indicators.index(this)));
-    })
+      .hover(function () {
+        that.$contorls.show();
+      }, function () {
+        that.$contorls.hide();
+      })
+      .on('click', '.slider-control-left', function () {
+        that.to(that._getindex(that.curIndex - 1), 1);
+      })
+      .on('click', '.slider-control-right', function () {
+        that.to(that._getindex(that.curIndex + 1), -1);
+      })
+      .on('click', '.slider-indicator', function () {
+        that.to(that._getindex(that.$indicators.index(this)));
+      })
 
     // 自动播放
-    if (this.options.interval && !isNaN(Number(this.options.interval))){
+    if (this.options.interval && !isNaN(Number(this.options.interval))) {
       this.$elem.hover($.proxy(this.pause, this), $.proxy(this.auto, this));
       this.auto();
     }
   }
 
-  Slide.prototype._init = function() {    
+  Slide.prototype._init = function () {
     this.$indicators.removeClass('active');
     this.$indicators.eq(this.curIndex).addClass('active');
 
@@ -53,14 +53,14 @@
     }
   }
 
-  Slide.prototype._getindex = function(index) {
+  Slide.prototype._getindex = function (index) {
     if (isNaN(index)) return 0;
-    if (index > this.totalNum -1) return 0;
-    if (index < 0) return this.totalNum -1;
+    if (index > this.totalNum - 1) return 0;
+    if (index < 0) return this.totalNum - 1;
     return index;
   }
 
-  Slide.prototype._slide = function(index, direction) {
+  Slide.prototype._slide = function (index, direction) {
     if (this.curIndex === index) return;
 
     if (!direction) {
@@ -81,7 +81,7 @@
     this.curIndex = index;
   }
 
-  Slide.prototype._fade = function(index) {
+  Slide.prototype._fade = function (index) {
     if (index === this.curIndex) return;
     this.$items.eq(this.curIndex).hide();
     this.$items.eq(index).show();
@@ -90,14 +90,14 @@
     this.curIndex = index;
   }
 
-  Slide.prototype.auto = function() {
+  Slide.prototype.auto = function () {
     var that = this;
-    this.interval = setInterval(function() {
+    this.interval = setInterval(function () {
       that.to(that._getindex(that.curIndex + 1), -1);
     }, 1000);
   }
 
-  Slide.prototype.pause = function() {
+  Slide.prototype.pause = function () {
     clearInterval(this.interval);
   }
 
@@ -106,4 +106,8 @@
 
 // 调用组件
 var $carousel = $('#carousel'),
-    slide = new $Slide($carousel, {animation: 'slide', interval: 3000, activeIndex: 0});
+  slide = new $Slide($carousel, {
+    animation: 'slide',
+    interval: 3000,
+    activeIndex: 0
+  });
